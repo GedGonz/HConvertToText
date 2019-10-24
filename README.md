@@ -8,4 +8,4 @@ Convierte hora a texto. -
  ejemplo: ( a las 'dos' hora con 'treinta' minutos  'de la tarde ò de la mañana' )
 ### DateToText(DateTime date)
 Convierte fecha a texto
-- ejemplo: ( a los 'siete' días del mes de 'Mayo'  del año 'mil novecientos noventa y uno' )
+- ejemplo: ( a los 'veinte' días del mes de 'Junio'  del año 'mil novecientos noventa y uno' )
