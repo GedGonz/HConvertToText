@@ -6,6 +6,8 @@
 Convierte de Hora a Texto
 Convierte de Fecha a Texto</Description>
     <RepositoryType>Publico</RepositoryType>
+    <PackageProjectUrl>https://github.com/GedGonz/HConvertToText</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GedGonz/HConvertToText</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
