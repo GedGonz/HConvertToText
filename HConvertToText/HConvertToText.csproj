@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Convierte de Numero a Texto
+Convierte de Hora a Texto
+Convierte de Fecha a Texto</Description>
+    <RepositoryType>Publico</RepositoryType>
+  </PropertyGroup>
+
+</Project>
