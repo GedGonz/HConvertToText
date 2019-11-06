@@ -1,7 +1,7 @@
 # HConvertToText
 Libereria que convierte de numero, fecha, hora, minuto a letras
 
-# Metodos
+## Metodos
 
 ### NumberToText(decimal Valor)
 
