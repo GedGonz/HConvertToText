@@ -1,43 +1,18 @@
 # HConvertToText
-Libereria que convierte de numero, fecha, hora, minuto a texto
-# Metodos
-### NumberToText(decimal Valor)
-```cs
-NumberToText(decimal Valor);
+Libereria que convierte de numero, fecha, hora, minuto a letras
 
-//Convierte de numero a texto
-```
+# Metodos
+
+### NumberToText(decimal Valor)
 
 ###  HoursToText(DateTime date)
-```cs
-HoursToText(DateTime date);
-
-Convierte hora a texto. -
- ejemplo: ( a las 'dos' hora con 'treinta' minutos  'de la tarde ò de la mañana' )
-```
 
 ### DateToText(DateTime date)
-```cs
-DateToText(DateTime date);
 
-ejemplo: ( a los 'veinte' días del mes de 'Junio'  del año 'mil novecientos noventa y uno' )
-```
-Convierte fecha a texto
 
-## Ejemplo
+1. Instancie la clase 'ConvertDateandNum'
 
-Para obtener la DLL descargue el fuente y copile, vaya a la carpeta bin del proyecto.
-
-1. Agregue la referencia(dll) en su proyecto.
-
-2. importe la libreria en la clase donde la usara.
-```cs
-    using HConvertToText;
-```
-
-3. Instancie la clase 'ConvertDateandNum'
-
-3.1 De Numero a letras
+1.1 De Numero a letras
 ```cs
  var Convert = new ConvertDateandNum();
  
@@ -47,7 +22,7 @@ Para obtener la DLL descargue el fuente y copile, vaya a la carpeta bin del proy
  // Salida: dos mil diecienueve
 ```
 
-3.2 De Hora a letras
+1.2 De Hora a letras
 ```cs
  var Date = DateTime.Now;
  var Convert = new ConvertDateandNum();
@@ -57,7 +32,7 @@ Para obtener la DLL descargue el fuente y copile, vaya a la carpeta bin del proy
  Console.WriteLine(Texto);
  // Salida:  a las dos hora con treinta minutos de la tarde ò de la mañana
 ```
-3.3 De Hora a letras
+1.3 De Hora a letras
 ```cs
  var Date = DateTime.Now;
  var Convert = new ConvertDateandNum();
